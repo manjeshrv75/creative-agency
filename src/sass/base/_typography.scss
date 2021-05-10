@@ -1,0 +1,22 @@
+// Import fonts
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url(../fonts/gilroy-bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url(../fonts/nexa-regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url(../fonts/nexa-bold.otf);
+  font-weight: 700;
+}
+
+body {
+  font-family: $font-default;
+}
