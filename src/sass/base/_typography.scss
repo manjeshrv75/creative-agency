@@ -1,22 +1,24 @@
-// Import fonts
-@font-face {
-  font-family: 'Gilroy Bold';
-  src: url(../fonts/gilroy-bold.ttf);
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Nexa';
-  src: url(../fonts/nexa-regular.otf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Nexa';
-  src: url(../fonts/nexa-bold.otf);
-  font-weight: 700;
-}
-
 body {
   font-family: $font-default;
+  line-height: 1.6;
+}
+
+.h1 {
+  font-size: clamp(3.2rem, 0.8rem + 4.1667vw, 8.8rem);
+}
+
+.h2 {
+  font-size: clamp(2.6rem, 0.7143rem + 3.2738vw, 7rem);
+}
+
+.title-1 {
+  font-size: clamp(2rem, 1.5714rem + 0.744vw, 3rem);
+}
+
+.title-2 {
+  font-size: clamp(1.8rem, 1.5429rem + 0.4464vw, 2.4rem);
+}
+
+.para {
+  font-size: clamp(1.6rem, 1.4286rem + 0.2976vw, 2rem);
 }
